@@ -7,6 +7,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
+/*
+1. Kullanıcı https://demowebshop.tricentis.com/ sitesini tarayıcıda açar.
+2. Ana sayfada "Register" seçeneğine tıklar.
+3. Kullanıcı gerekli bilgileri eksiksiz doldurur.
+4. "Register" butonuna tıklar.
+ */
 public class US_01_Faruk extends BaseDriver {
     @Test
     public void Test_0101 (){
