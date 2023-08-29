@@ -1,6 +1,7 @@
 package MainClass;
 
 import Utility.BaseDriver;
+import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -20,6 +21,8 @@ public class US_04_Faruk extends BaseDriver {
         WebElement loginButton = driver.findElement(By.xpath("//input[@class='button-1 login-button']"));
         loginButton.click();
 
+        WebElement kisiselMenu = driver.findElement(By.xpath("(//a[@href='/customer/info'])[1]"));
+        Assert.assertTrue("Hatalı kullanıcı email bilgisi",kisiselMenu.getText().contains("cek@example.com"));
         BekleVeKapat();
     }
 }
