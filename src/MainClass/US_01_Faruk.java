@@ -27,7 +27,7 @@ public class US_01_Faruk extends BaseDriver {
         WebElement lastName= driver.findElement(By.id("LastName"));
         lastName.sendKeys("far");
         WebElement email= driver.findElement(By.id("Email"));
-        email.sendKeys("cek@example.com");
+        email.sendKeys("cek1@example.com");
         WebElement password= driver.findElement(By.id("Password"));
         password.sendKeys("far123");
         WebElement confirmPassword= driver.findElement(By.id("ConfirmPassword"));

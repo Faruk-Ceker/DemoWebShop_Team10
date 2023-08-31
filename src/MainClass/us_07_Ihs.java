@@ -23,11 +23,11 @@ public class us_07_Ihs extends BaseDriver {
         MyFunc.Wait(2);
 
         WebElement email = driver.findElement(By.cssSelector("[id='Email']"));
-        email.sendKeys("usm@gmail.com");
+        email.sendKeys("cek1@example.com");
         MyFunc.Wait(2);
 
         WebElement password = driver.findElement(By.cssSelector("[id='Password']"));
-        password.sendKeys("Password123A@");
+        password.sendKeys("far123");
         MyFunc.Wait(2);
 
         WebElement logInBtn = driver.findElement(By.cssSelector("input.button-1.login-button[type=\"submit\"][value=\"Log in\"]"));

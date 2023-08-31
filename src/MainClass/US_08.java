@@ -36,11 +36,11 @@ public class US_08 extends BaseDriver {
         MyFunc.Wait(3);
 
         WebElement eMail = driver.findElement(By.id("Email"));
-        eMail.sendKeys("ahmt123@gmail.com");
+        eMail.sendKeys("cek1@example.com");
 
         MyFunc.Wait(3);
         WebElement pass = driver.findElement(By.id("Password"));
-        pass.sendKeys("123456Vs@");
+        pass.sendKeys("far123");
 
 
         MyFunc.Wait(3);
